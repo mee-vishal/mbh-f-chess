@@ -41,22 +41,22 @@
     .round-title { border-bottom: 2px solid #d4af37; display: inline-block; padding-bottom: 4px; }
   </style>
 </head>
-<body class="flex items-center justify-center min-h-screen p-4 sm:p-6 lg:p-8">
+<body class="flex items-center justify-center min-h-screen p-2 sm:p-4 lg:p-8">
 
   <!-- Main Poster -->
-  <div class="poster-bg w-full max-w-5xl rounded-2xl shadow-2xl text-white overflow-hidden border-2 border-gray-700">
-    <div class="p-8 md:p-12 lg:p-16">
+  <div class="poster-bg w-full max-w-full rounded-2xl shadow-2xl text-white overflow-hidden border-2 border-gray-700">
+    <div class="p-4 sm:p-8 lg:p-16">
 
       <!-- Header -->
       <header class="text-center mb-10">
         <h2 class="text-lg md:text-xl text-gray-300 tracking-widest uppercase">
           DR B R AMBEDKAR NIT JALANDHAR
         </h2>
-        <h1 class="font-cinzel text-5xl md:text-6xl font-bold mt-2" 
+        <h1 class="font-cinzel text-4xl md:text-6xl font-bold mt-2" 
             style="text-shadow:2px 2px 8px rgba(212,175,55,0.5);">
           MBH F-BLOCK
         </h1>
-        <h1 class="font-cinzel text-3xl md:text-5xl font-bold mt-4" 
+        <h1 class="font-cinzel text-2xl md:text-5xl font-bold mt-4" 
             style="text-shadow:2px 2px 8px rgba(212,175,55,0.5);">
           Sports Fest '25 – Chess Tournament
         </h1>
@@ -70,14 +70,14 @@
         <div class="space-y-5">
 
           <!-- Match 1 -->
-          <div class="fixture-card rounded-xl p-4">
-            <div class="flex items-center justify-between">
-              <div class="player-name flex-1 text-center p-3 rounded-lg mr-2">
+          <div class="fixture-card rounded-xl p-4 w-full">
+            <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+              <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
                 <p class="font-bold text-lg">Prabuddha Tripathi</p>
                 <p class="text-sm text-gray-400">Block B</p>
               </div>
-              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center">VS</div>
-              <div class="player-name flex-1 text-center p-3 rounded-lg ml-2">
+              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+              <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
                 <p class="font-bold text-lg">Pranay Pandey</p>
                 <p class="text-sm text-gray-400">Block B</p>
               </div>
@@ -86,19 +86,19 @@
           </div>
 
           <!-- Match 2 -->
-          <div class="fixture-card rounded-xl p-4">
-            <div class="flex items-center justify-between">
-              <div class="player-name flex-1 text-center p-3 rounded-lg mr-2">
+          <div class="fixture-card rounded-xl p-4 w-full">
+            <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+              <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
                 <p class="font-bold text-lg">Manjushwar</p>
                 <p class="text-sm text-gray-400">Block A</p>
               </div>
-              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center">VS</div>
-              <div class="player-name flex-1 text-center p-3 rounded-lg ml-2">
+              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+              <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
                 <p class="font-bold text-lg">Rahul</p>
                 <p class="text-sm text-gray-400">Block A</p>
               </div>
             </div>
-            <p class="text-center mt-3 text-yellow-400 font-semibold">Match 2 – 6:00PM</p>
+            <p class="text-center mt-3 text-yellow-400 font-semibold">Match 2 – 6:00 PM</p>
           </div>
 
         </div>
@@ -107,34 +107,32 @@
       <!-- Round 1.1 -->
       <section class="mb-12">
         <h3 class="text-2xl md:text-3xl text-center font-bold mb-8 text-gray-200 round-title">Round 1.1</h3>
-       
-   <div class="space-y-5">
+        <div class="space-y-5">
 
-          <!-- Match 1 -->
-          <div class="fixture-card rounded-xl p-4">
-            <div class="flex items-center justify-between">
-              <div class="player-name flex-1 text-center p-3 rounded-lg mr-2">
+          <!-- Matches (example shown, all updated to full width + flex-col on mobile) -->
+          <div class="fixture-card rounded-xl p-4 w-full">
+            <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+              <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
                 <p class="font-bold text-lg">WINNER MATCH 1</p>
-                <p class="text-sm text-gray-400">--</p>
+                <p class="text-sm text-gray-400">Block B</p>
               </div>
-              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center">VS</div>
-              <div class="player-name flex-1 text-center p-3 rounded-lg ml-2">
+              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+              <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
                 <p class="font-bold text-lg">WINNER MATCH 2</p>
-                <p class="text-sm text-gray-400">--</p>
+                <p class="text-sm text-gray-400">Block A</p>
               </div>
             </div>
             <p class="text-center mt-3 text-yellow-400 font-semibold">Match 3 – 6:10 PM</p>
           </div>
 
-          <!-- Match 2 -->
-          <div class="fixture-card rounded-xl p-4">
-            <div class="flex items-center justify-between">
-              <div class="player-name flex-1 text-center p-3 rounded-lg mr-2">
+           <div class="fixture-card rounded-xl p-4 w-full">
+            <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+              <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
                 <p class="font-bold text-lg">Sagar kumar</p>
                 <p class="text-sm text-gray-400">Block F</p>
               </div>
-              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center">VS</div>
-              <div class="player-name flex-1 text-center p-3 rounded-lg ml-2">
+              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+              <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
                 <p class="font-bold text-lg">Rahul Paliwal</p>
                 <p class="text-sm text-gray-400">Block F</p>
               </div>
@@ -142,15 +140,15 @@
             <p class="text-center mt-3 text-yellow-400 font-semibold">Match 4 – 6:00 PM</p>
           </div>
 
-          <!-- Match 3 -->
-          <div class="fixture-card rounded-xl p-4">
-            <div class="flex items-center justify-between">
-              <div class="player-name flex-1 text-center p-3 rounded-lg mr-2">
+
+           <div class="fixture-card rounded-xl p-4 w-full">
+            <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+              <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
                 <p class="font-bold text-lg">Dande Vyankatesh Shashikant</p>
                 <p class="text-sm text-gray-400">Block B</p>
               </div>
-              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center">VS</div>
-              <div class="player-name flex-1 text-center p-3 rounded-lg ml-2">
+              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+              <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
                 <p class="font-bold text-lg">KRISHNAKANT MAIND</p>
                 <p class="text-sm text-gray-400">Block F</p>
               </div>
@@ -158,33 +156,40 @@
             <p class="text-center mt-3 text-yellow-400 font-semibold">Match 5 – 6:00 PM</p>
           </div>
 
-          <!-- Match 4-->
-          <div class="fixture-card rounded-xl p-4">
-            <div class="flex items-center justify-between">
-              <div class="player-name flex-1 text-center p-3 rounded-lg mr-2">
-                <p class="font-bold text-lg">Shivam Gupta</p>
-                <p class="text-sm text-gray-400">Block F</p>
+
+
+           <div class="fixture-card rounded-xl p-4 w-full">
+            <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+              <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
+                <p class="font-bold text-lg">Shivam Gupta
+
+</p>
+                <p class="text-sm text-gray-400">Block F
+
+</p>
               </div>
-              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center">VS</div>
-              <div class="player-name flex-1 text-center p-3 rounded-lg ml-2">
-                <p class="font-bold text-lg">Sajaal Kumar</p>
-                <p class="text-sm text-gray-400">Block F</p>
+              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+              <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
+                <p class="font-bold text-lg">Sajaal Kumarr</p>
+                <p class="text-sm text-gray-400">Block F
+
+</p>
               </div>
             </div>
             <p class="text-center mt-3 text-yellow-400 font-semibold">Match 6 – 6:10 PM</p>
           </div>
 
 
-
-          <!-- Match 5-->
-          <div class="fixture-card rounded-xl p-4">
-            <div class="flex items-center justify-between">
-              <div class="player-name flex-1 text-center p-3 rounded-lg mr-2">
+           <div class="fixture-card rounded-xl p-4 w-full">
+            <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+              <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
                 <p class="font-bold text-lg">Vinayak Raj Dawre</p>
-                <p class="text-sm text-gray-400">Block F</p>
+                <p class="text-sm text-gray-400">Block F
+
+</p>
               </div>
-              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center">VS</div>
-              <div class="player-name flex-1 text-center p-3 rounded-lg ml-2">
+              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+              <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
                 <p class="font-bold text-lg">Sandeep Kumar</p>
                 <p class="text-sm text-gray-400">Block F</p>
               </div>
@@ -193,16 +198,15 @@
           </div>
 
 
- 
-          <!-- Match 6-->
-          <div class="fixture-card rounded-xl p-4">
-            <div class="flex items-center justify-between">
-              <div class="player-name flex-1 text-center p-3 rounded-lg mr-2">
-                <p class="font-bold text-lg">Nitin Kumar </p>
+
+           <div class="fixture-card rounded-xl p-4 w-full">
+            <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+              <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
+                <p class="font-bold text-lg">Nitin Kumar</p>
                 <p class="text-sm text-gray-400">Block F</p>
               </div>
-              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center">VS</div>
-              <div class="player-name flex-1 text-center p-3 rounded-lg ml-2">
+              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+              <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
                 <p class="font-bold text-lg">Priyanshu Soni</p>
                 <p class="text-sm text-gray-400">Block F</p>
               </div>
@@ -211,32 +215,30 @@
           </div>
 
 
-          <!-- Match 7 -->
-          <div class="fixture-card rounded-xl p-4">
-            <div class="flex items-center justify-between">
-              <div class="player-name flex-1 text-center p-3 rounded-lg mr-2">
+           <div class="fixture-card rounded-xl p-4 w-full">
+            <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+              <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
                 <p class="font-bold text-lg">Jay Jaiswal</p>
                 <p class="text-sm text-gray-400">Block F</p>
               </div>
-              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center">VS</div>
-              <div class="player-name flex-1 text-center p-3 rounded-lg ml-2">
+              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+              <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
                 <p class="font-bold text-lg">Rishabh Nautiyal</p>
                 <p class="text-sm text-gray-400">Block F</p>
               </div>
             </div>
-            <p class="text-center mt-3 text-yellow-400 font-semibold">Match 9 – 6:20 PM</p>
+            <p class="text-center mt-3 text-yellow-400 font-semibold">Match 9 – 6:20 PM </p>
           </div>
 
 
-          <!-- Match 8 -->
-          <div class="fixture-card rounded-xl p-4">
-            <div class="flex items-center justify-between">
-              <div class="player-name flex-1 text-center p-3 rounded-lg mr-2">
+           <div class="fixture-card rounded-xl p-4 w-full">
+            <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+              <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
                 <p class="font-bold text-lg">Shvam Sagar</p>
                 <p class="text-sm text-gray-400">Block F</p>
               </div>
-              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center">VS</div>
-              <div class="player-name flex-1 text-center p-3 rounded-lg ml-2">
+              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+              <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
                 <p class="font-bold text-lg">Harshal</p>
                 <p class="text-sm text-gray-400">Block F</p>
               </div>
@@ -245,97 +247,148 @@
           </div>
 
 
+
+          <!-- (Keep same structure for Matches 4–10 below) -->
+
         </div>
       </section>
 
       <!-- Quarterfinals -->
       <section class="mb-12">
-        <h3 class="text-2xl md:text-3xl text-center font-bold mb-8 text-gray-200 round-title">Quarterfinals (SUNDAY) </h3>
-        <div class="space-y-5">
-          <div class="fixture-card rounded-xl p-4">
-            <p class="text-center text-lg">Winner M3 vs Winner M4</p>
-            <p class="text-center mt-2 text-yellow-400 font-semibold">--</p>
+        <h3 class="text-2xl md:text-3xl text-center font-bold mb-8 text-gray-200 round-title">Quarterfinals (SUNDAY)</h3>
+        <div class="fixture-card rounded-xl p-4 w-full">
+            <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+              <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
+                <p class="font-bold text-lg">WINNER MATCH 3</p>
+                <p class="text-sm text-gray-400">--</p>
+              </div>
+              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+              <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
+                <p class="font-bold text-lg">WINNER MATCH 4</p>
+                <p class="text-sm text-gray-400">--</p>
+              </div>
+            </div>
+            <p class="text-center mt-3 text-yellow-400 font-semibold">Match 11 – 6:30 PM</p>
           </div>
-          <div class="fixture-card rounded-xl p-4">
-            <p class="text-center text-lg">Winner M5 vs Winner M6</p>
-            <p class="text-center mt-2 text-yellow-400 font-semibold">--</p>
+
+
+
+           <div class="fixture-card rounded-xl p-4 w-full">
+            <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+              <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
+                <p class="font-bold text-lg">WINNER MATCH 5</p>
+                <p class="text-sm text-gray-400">--</p>
+              </div>
+              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+              <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
+                <p class="font-bold text-lg">WINNER MATCH 6</p>
+                <p class="text-sm text-gray-400">--</p>
+              </div>
+            </div>
+            <p class="text-center mt-3 text-yellow-400 font-semibold">Match 12 – 6:30 PM</p>
           </div>
-          <div class="fixture-card rounded-xl p-4">
-            <p class="text-center text-lg">Winner M7 vs Winner M8</p>
-            <p class="text-center mt-2 text-yellow-400 font-semibold">--</p>
+
+
+
+           <div class="fixture-card rounded-xl p-4 w-full">
+            <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+              <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
+                <p class="font-bold text-lg">WINNER MATCH 7</p>
+                <p class="text-sm text-gray-400">--</p>
+              </div>
+              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+              <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
+                <p class="font-bold text-lg">WINNER MATCH 8</p>
+                <p class="text-sm text-gray-400">--</p>
+              </div>
+            </div>
+            <p class="text-center mt-3 text-yellow-400 font-semibold">Match 13 – 6:30 PM</p>
           </div>
-          <div class="fixture-card rounded-xl p-4">
-            <p class="text-center text-lg">Winner M9 vs Winner M10</p>
-            <p class="text-center mt-2 text-yellow-400 font-semibold">--</p>
+
+
+
+           <div class="fixture-card rounded-xl p-4 w-full">
+            <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+              <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
+                <p class="font-bold text-lg">WINNER MATCH 9</p>
+                <p class="text-sm text-gray-400">--</p>
+              </div>
+              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+              <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
+                <p class="font-bold text-lg">WINNER MATCH 10</p>
+                <p class="text-sm text-gray-400">--</p>
+              </div>
+            </div>
+            <p class="text-center mt-3 text-yellow-400 font-semibold">Match 14 – 6:30 PM</p>
           </div>
-        </div>
+
+
+
+        
       </section>
 
       <!-- Semifinals -->
       <section class="mb-12">
-        <h3 class="text-2xl md:text-3xl text-center font-bold mb-8 text-gray-200 round-title">Semifinals (SUNDAY) </h3>
-        <div class="space-y-5">
-
-          <!-- Match 15 -->
-          <div class="fixture-card rounded-xl p-4">
-            <div class="flex items-center justify-between">
-              <div class="player-name flex-1 text-center p-3 rounded-lg mr-2">
-                <p class="font-bold text-lg">Winner M11</p>
+        <h3 class="text-2xl md:text-3xl text-center font-bold mb-8 text-gray-200 round-title">Semifinals (SUNDAY)</h3>
+        
+       <div class="fixture-card rounded-xl p-4 w-full">
+            <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+              <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
+                <p class="font-bold text-lg">WINNER MATCH 11</p>
+                <p class="text-sm text-gray-400">--</p>
               </div>
-              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center">VS</div>
-              <div class="player-name flex-1 text-center p-3 rounded-lg ml-2">
-                <p class="font-bold text-lg">Winner M12</p>
-              </div>
-            </div>
-            <p class="text-center mt-3 text-yellow-400 font-semibold">--</p>
-          </div>
-
-          <!-- Match 16 -->
-          <div class="fixture-card rounded-xl p-4">
-            <div class="flex items-center justify-between">
-              <div class="player-name flex-1 text-center p-3 rounded-lg mr-2">
-                <p class="font-bold text-lg">Winner M13</p>
-              </div>
-              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center">VS</div>
-              <div class="player-name flex-1 text-center p-3 rounded-lg ml-2">
-                <p class="font-bold text-lg">Winner M14</p>
+              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+              <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
+                <p class="font-bold text-lg">WINNER MATCH 12</p>
+                <p class="text-sm text-gray-400">--</p>
               </div>
             </div>
-            <p class="text-center mt-3 text-yellow-400 font-semibold">--</p>
+            <p class="text-center mt-3 text-yellow-400 font-semibold">-MATCH 15-</p>
           </div>
 
-        </div>
+
+
+         <div class="fixture-card rounded-xl p-4 w-full">
+            <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+              <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
+                <p class="font-bold text-lg">WINNER MATCH 13</p>
+                <p class="text-sm text-gray-400">--</p>
+              </div>
+              <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+              <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
+                <p class="font-bold text-lg">WINNER MATCH 14</p>
+                <p class="text-sm text-gray-400">--</p>
+              </div>
+            </div>
+            <p class="text-center mt-3 text-yellow-400 font-semibold">-MATCH 16-</p>
+          </div>
+
+
       </section>
 
       <!-- Final -->
       <section class="mb-12">
-        <h3 class="text-2xl md:text-3xl text-center font-bold mb-8 text-gray-200 round-title">
-          Final (SUNDAY)
-        </h3>
-        <div class="fixture-card rounded-xl p-4">
-          <div class="flex items-center justify-between">
-            <div class="player-name flex-1 text-center p-3 rounded-lg mr-2">
+        <h3 class="text-2xl md:text-3xl text-center font-bold mb-8 text-gray-200 round-title">Final (SUNDAY)</h3>
+        <div class="fixture-card rounded-xl p-4 w-full">
+          <div class="flex flex-col sm:flex-row items-center justify-between w-full">
+            <div class="player-name flex-1 text-center p-3 rounded-lg mb-3 sm:mb-0 sm:mr-2">
               <p class="font-bold text-lg">Winner M15</p>
               <p class="text-sm text-gray-400">Semifinalist</p>
             </div>
-            <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center">VS</div>
-            <div class="player-name flex-1 text-center p-3 rounded-lg ml-2">
+            <div class="vs-circle rounded-full h-12 w-12 flex items-center justify-center mx-auto sm:mx-2">VS</div>
+            <div class="player-name flex-1 text-center p-3 rounded-lg sm:ml-2">
               <p class="font-bold text-lg">Winner M16</p>
               <p class="text-sm text-gray-400">Semifinalist</p>
             </div>
           </div>
-          <p class="text-center mt-3 text-yellow-400 text-xl font-cinzel">
-            🏆 -- 🏆
-          </p>
+          <p class="text-center mt-3 text-yellow-400 text-xl font-cinzel">🏆 -MATCH 17- 🏆</p>
         </div>
       </section>
 
-      <!-- Champion Card -->
+      <!-- Champion -->
       <section class="mt-12 text-center">
-        <div class="fixture-card rounded-2xl p-6 border-2 border-yellow-500 inline-block">
-          <h2 class="font-cinzel text-4xl font-bold text-yellow-400 mb-3">
-            🥇 Champion
-          </h2>
+        <div class="fixture-card rounded-2xl p-6 border-2 border-yellow-500 inline-block w-full sm:w-auto">
+          <h2 class="font-cinzel text-4xl font-bold text-yellow-400 mb-3">🥇 Champion</h2>
           <p class="text-white text-xl font-semibold">Winner of Match 17</p>
           <p class="text-gray-400 mt-2 italic">MBH F-Block Chess Champion 2025</p>
         </div>
